@@ -552,6 +552,10 @@
     .section__apple-btn {
     justify-content: center;
     }
+    
+    .section__apple-btn-second{
+    margin: 15px 0 0;
+    }
 }
 
 @media (max-width: 382px){
