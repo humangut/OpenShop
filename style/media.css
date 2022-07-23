@@ -420,7 +420,7 @@
     }
     
     .navbar__link-block{
-        transform: translateX(-75px);
+    transform: translateX(0px);
     }
     
     .section__sales-content{
@@ -545,6 +545,18 @@
         line-height: 28px;
 
         margin-top: 10px;
+    }
+}
+
+@media (max-width:402px){
+    .section__apple-btn {
+    justify-content: center;
+    }
+}
+
+@media (max-width: 382px){
+        .navbar__link-block{
+        transform: translateX(-75px);
     }
 }
 
